@@ -1,0 +1,271 @@
+[
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "The romantic clash between the opinionated Elizabeth Bennet and her proud beau, Mr. Darcy, is a splendid performance of civilized sparring in Regency England.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1813,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/1342",
+    "external_id": "1342",
+    "genres": [
+      { "name": "Romance", "slug": "romance" },
+      { "name": "Classics", "slug": "classics" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "description": "A young girl named Alice falls through a rabbit hole into a fantastical world of peculiar, talking creatures and absurd logic.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1865,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/11",
+    "external_id": "11",
+    "genres": [
+      { "name": "Fantasy", "slug": "fantasy" },
+      { "name": "Children", "slug": "children" },
+      { "name": "Adventure", "slug": "adventure" }
+    ]
+  },
+  {
+    "title": "Frankenstein; Or, The Modern Prometheus",
+    "author": "Mary Wollstonecraft Shelley",
+    "description": "A young scientist, Victor Frankenstein, creates a sapient creature in an unorthodox experiment and must live with the tragic consequences.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1818,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/84",
+    "external_id": "84",
+    "genres": [
+      { "name": "Horror", "slug": "horror" },
+      { "name": "Science Fiction", "slug": "science-fiction" },
+      { "name": "Gothic", "slug": "gothic" }
+    ]
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "description": "Twelve short stories featuring the brilliant consulting detective Sherlock Holmes and his loyal companion, Dr. Watson.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1892,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/1661",
+    "external_id": "1661",
+    "genres": [
+      { "name": "Mystery & Detective", "slug": "mystery-detective" },
+      { "name": "Short Stories", "slug": "short-stories" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "description": "The Transylvanian vampire Count Dracula schemes to spread the undead curse to England, opposed by a small band led by Professor Van Helsing.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1897,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/345",
+    "external_id": "345",
+    "genres": [
+      { "name": "Horror", "slug": "horror" },
+      { "name": "Gothic", "slug": "gothic" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "Moby Dick; Or, The Whale",
+    "author": "Herman Melville",
+    "description": "The obsessive Captain Ahab pursues the great white whale Moby Dick across the world's oceans in a doomed quest for revenge.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/2701/pg2701.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1851,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/2701",
+    "external_id": "2701",
+    "genres": [
+      { "name": "Adventure", "slug": "adventure" },
+      { "name": "Classics", "slug": "classics" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "description": "Set in London and Paris before and during the French Revolution, it follows a cast of characters swept up in the terror of the era.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/98/pg98.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1859,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/98",
+    "external_id": "98",
+    "genres": [
+      { "name": "Historical", "slug": "historical" },
+      { "name": "Classics", "slug": "classics" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "On Long Island, the mysterious millionaire Jay Gatsby pursues his lost love Daisy Buchanan amid the glittering excess of the Jazz Age.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1925,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/64317",
+    "external_id": "64317",
+    "genres": [
+      { "name": "Classics", "slug": "classics" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "description": "A handsome young man trades his soul so that a portrait ages in his place, freeing him to pursue a life of hedonism without visible consequence.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/174/pg174.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1890,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/174",
+    "external_id": "174",
+    "genres": [
+      { "name": "Horror", "slug": "horror" },
+      { "name": "Philosophy", "slug": "philosophy" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "description": "Martians invade the English countryside with devastating war machines in one of the earliest tales of conflict between humanity and an alien race.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/36/pg36.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1898,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/36",
+    "external_id": "36",
+    "genres": [
+      { "name": "Science Fiction", "slug": "science-fiction" },
+      { "name": "Adventure", "slug": "adventure" }
+    ]
+  },
+  {
+    "title": "The Time Machine",
+    "author": "H. G. Wells",
+    "description": "A Victorian scientist travels far into the future and discovers the divergent descendants of humanity: the gentle Eloi and the subterranean Morlocks.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1895,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/35",
+    "external_id": "35",
+    "genres": [
+      { "name": "Science Fiction", "slug": "science-fiction" },
+      { "name": "Adventure", "slug": "adventure" }
+    ]
+  },
+  {
+    "title": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "description": "Two young star-crossed lovers from feuding families in Verona meet a tragic end that ultimately reconciles their warring households.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/1513/pg1513.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1597,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/1513",
+    "external_id": "1513",
+    "genres": [
+      { "name": "Drama", "slug": "drama" },
+      { "name": "Romance", "slug": "romance" },
+      { "name": "Classics", "slug": "classics" }
+    ]
+  },
+  {
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "description": "The coming-of-age story of the four March sisters — Meg, Jo, Beth and Amy — growing up during and after the American Civil War.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/514/pg514.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1868,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/514",
+    "external_id": "514",
+    "genres": [
+      { "name": "Classics", "slug": "classics" },
+      { "name": "Children", "slug": "children" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "description": "A mischievous boy growing up along the Mississippi River has a string of adventures, including witnessing a murder and hunting for buried treasure.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/74/pg74.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1876,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/74",
+    "external_id": "74",
+    "genres": [
+      { "name": "Adventure", "slug": "adventure" },
+      { "name": "Children", "slug": "children" },
+      { "name": "Fiction", "slug": "fiction" }
+    ]
+  },
+  {
+    "title": "Grimms' Fairy Tales",
+    "author": "Jacob Grimm & Wilhelm Grimm",
+    "description": "A celebrated collection of German folk and fairy tales, including Cinderella, Hansel and Gretel, Rapunzel and Snow White.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/2591/pg2591.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1812,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/2591",
+    "external_id": "2591",
+    "genres": [
+      { "name": "Fantasy", "slug": "fantasy" },
+      { "name": "Children", "slug": "children" },
+      { "name": "Short Stories", "slug": "short-stories" }
+    ]
+  },
+  {
+    "title": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "description": "A Kansas farm girl named Dorothy is swept by a cyclone to the magical Land of Oz and journeys to the Emerald City to find a way home.",
+    "cover_url": "https://www.gutenberg.org/cache/epub/55/pg55.cover.medium.jpg",
+    "license": "Public domain (Project Gutenberg)",
+    "language": "English",
+    "year": 1900,
+    "source": "gutenberg",
+    "source_url": "https://www.gutenberg.org/ebooks/55",
+    "external_id": "55",
+    "genres": [
+      { "name": "Fantasy", "slug": "fantasy" },
+      { "name": "Children", "slug": "children" },
+      { "name": "Adventure", "slug": "adventure" }
+    ]
+  }
+]
