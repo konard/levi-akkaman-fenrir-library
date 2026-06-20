@@ -1,0 +1,21 @@
+node_modules/
+.env
+.env.local
+npm-debug.log*
+*.log
+coverage/
+
+# Uploaded user avatars (runtime data, keep the folder via .gitkeep)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Playwright MCP scratch output and working screenshots (kept out of git)
+.playwright-mcp/
+/home-initial.png
+/book-detail.png

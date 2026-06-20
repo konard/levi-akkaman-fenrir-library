@@ -1,0 +1,37 @@
+# One-command local stack: PostgreSQL + the Fenrir Library app.
+#   docker compose up --build
+# The app container waits for the database to be healthy, applies the schema,
+# seeds the bundled catalogue, then starts the server on http://localhost:3000
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: fenrir
+      POSTGRES_PASSWORD: fenrir
+      POSTGRES_DB: fenrir_library
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fenrir -d fenrir_library"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgres://fenrir:fenrir@db:5432/fenrir_library
+      JWT_SECRET: please-change-this-secret
+      PORT: "3000"
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+    # Apply the schema and seed the bundled books, then launch the server.
+    command: sh -c "node scripts/migrate.js && node scripts/scrape.js --offline && node src/server.js"
+
+volumes:
+  pgdata:
