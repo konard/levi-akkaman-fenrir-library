@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book — Fenrir Library</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>📚</text></svg>">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header id="app-header"></header>
+
+  <main class="container" id="book-root">
+    <nav class="breadcrumb"><a href="/">← Back to library</a></nav>
+    <div id="book-status"><div class="spinner" role="status" aria-label="Loading"></div></div>
+    <div id="book-content"></div>
+  </main>
+
+  <footer id="app-footer"></footer>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/ui.js"></script>
+  <script src="/js/book.js"></script>
+</body>
+</html>

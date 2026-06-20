@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your profile — Fenrir Library</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>📚</text></svg>">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header id="app-header"></header>
+
+  <main class="container">
+    <div class="profile-wrap">
+      <div id="profile-status"><div class="spinner" role="status" aria-label="Loading"></div></div>
+      <div id="profile-content" class="hidden">
+        <div class="card-panel">
+          <div class="profile-head">
+            <span id="profile-avatar"></span>
+            <div>
+              <h1 id="profile-name" style="margin:0"></h1>
+              <div class="muted" id="profile-email"></div>
+              <div class="muted" id="profile-since" style="font-size:.85rem"></div>
+            </div>
+          </div>
+
+          <h2 style="font-size:1.1rem">Display name</h2>
+          <form id="name-form">
+            <div class="field">
+              <input type="text" id="name-input" maxlength="120" required>
+            </div>
+            <button class="btn" type="submit">Save name</button>
+          </form>
+
+          <h2 style="font-size:1.1rem;margin-top:1.8rem">Avatar</h2>
+          <form id="avatar-upload-form">
+            <div class="field">
+              <label for="avatar-file">Upload an image (PNG, JPG, GIF, WEBP — max 2&nbsp;MB)</label>
+              <input type="file" id="avatar-file" accept="image/png,image/jpeg,image/gif,image/webp">
+            </div>
+            <button class="btn outline" type="submit">Upload avatar</button>
+          </form>
+          <form id="avatar-url-form" style="margin-top:1rem">
+            <div class="field">
+              <label for="avatar-url">…or paste an image URL</label>
+              <input type="url" id="avatar-url" placeholder="https://…">
+            </div>
+            <div style="display:flex;gap:.6rem">
+              <button class="btn outline" type="submit">Use URL</button>
+              <button class="btn ghost outline" type="button" id="avatar-clear">Remove avatar</button>
+            </div>
+          </form>
+
+          <hr style="border:none;border-top:1px solid var(--line);margin:1.8rem 0">
+          <button class="btn" id="logout" style="background:var(--ink)">Log out</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="app-footer"></footer>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/ui.js"></script>
+  <script src="/js/profile.js"></script>
+</body>
+</html>

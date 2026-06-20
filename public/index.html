@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenrir Library — Read the classics</title>
+  <meta name="description" content="Browse and search a curated library of public-domain books by genre and title.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>📚</text></svg>">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header id="app-header"></header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Your public-domain reading room</h1>
+      <p>Discover timeless classics — search by title or author, browse by genre, and join the conversation with comments and reactions.</p>
+      <form class="search-bar" id="search-form" role="search">
+        <input type="search" id="search-input" name="search" placeholder="Search by title or author…" aria-label="Search books">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="toolbar">
+      <div class="chips" id="genre-chips" aria-label="Filter by genre"></div>
+      <label class="muted" for="sort-select" style="font-size:.88rem">Sort</label>
+      <select class="sort-select" id="sort-select" aria-label="Sort books">
+        <option value="newest">Newest</option>
+        <option value="title">Title A–Z</option>
+        <option value="author">Author A–Z</option>
+        <option value="popular">Most loved</option>
+      </select>
+    </div>
+
+    <div id="results-summary" class="muted" style="margin:.6rem 0 0"></div>
+    <div id="book-grid" class="grid" aria-live="polite"></div>
+    <div id="grid-status"></div>
+    <div class="pagination" id="pagination"></div>
+  </main>
+
+  <footer id="app-footer"></footer>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/ui.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
